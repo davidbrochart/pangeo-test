@@ -1,0 +1,27 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - ipywidgets
+  - ipyleaflet
+  - pandas
+  - numpy
+  - xarray
+  - dask
+  - distributed
+  - nbserverproxy
+  - jupyter
+  - jupyterlab=0.35
+  - zarr
+  - intake
+  - intake-xarray
+  - graphviz
+  - dask-kubernetes
+  - tornado=5.1.1
+  - python-wget
+  - pip
+  - pip:
+    - dask_labextension==0.3.3
+    - soupsieve
+    - gcsfs
