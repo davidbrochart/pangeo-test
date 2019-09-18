@@ -12,7 +12,7 @@ dependencies:
   - distributed
   - nbserverproxy
   - jupyter
-  - jupyterlab=0.35
+  - jupyterlab
   - zarr
   - intake
   - intake-xarray
