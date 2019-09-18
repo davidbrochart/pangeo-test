@@ -20,8 +20,9 @@ dependencies:
   - dask-kubernetes
   - tornado=5.1.1
   - python-wget
+  - matplotlib
   - pip
   - pip:
-    - dask_labextension==0.3.3
+    - git+https://github.com/ian-r-rose/dask-labextension.git@de-asyncify#egg=dask_labextension
     - soupsieve
     - gcsfs
