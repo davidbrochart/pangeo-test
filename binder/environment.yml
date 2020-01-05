@@ -2,7 +2,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.6
+  - python
   - ipywidgets
   - ipyleaflet
   - pandas
@@ -18,11 +18,8 @@ dependencies:
   - intake-xarray
   - graphviz
   - dask-kubernetes
-  - tornado=5.1.1
+  - tornado
   - python-wget
   - matplotlib
-  - pip
-  - pip:
-    - git+https://github.com/ian-r-rose/dask-labextension.git@de-asyncify#egg=dask_labextension
-    - soupsieve
-    - gcsfs
+  - gcsfs
+  - dask-labextension
