@@ -18,12 +18,12 @@ dependencies:
   - intake
   - intake-xarray
   - graphviz
-  - dask-kubernetes
   - tornado
   - python-wget
   - matplotlib
   - gcsfs
   - dask-labextension
+  - dask-gateway==0.7.1
   - pip
   - pip:
-    - git+https://github.com/pangeo-data/rechunker.git#egg=rechunker
+    - git+https://github.com/pangeo-data/rechunker.git
