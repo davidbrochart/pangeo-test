@@ -1,3 +1,4 @@
+name: pangeo-test
 channels:
   - conda-forge
   - defaults
@@ -23,3 +24,6 @@ dependencies:
   - matplotlib
   - gcsfs
   - dask-labextension
+  - pip
+  - pip:
+    - git+https://github.com/pangeo-data/rechunker.git#egg=rechunker
